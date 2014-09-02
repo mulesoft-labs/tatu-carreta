@@ -10,5 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>tatu-carreta-http</artifactId>
 
+        <dependencies>
+            <dependency>
+                <groupId>org.mule</groupId>
+                <artifactId>tatu-carreta</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
 
 </project>
