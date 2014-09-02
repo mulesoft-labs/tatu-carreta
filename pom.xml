@@ -12,9 +12,7 @@
     <modules>
         <module>tatu-carreta-api</module>
         <module>tatu-carreta-http</module>
-        <module>tatu-carreta-routers</module>
-        <module>../mule/tatu-carreta-api</module>
+        <module>tatu-carreta-core-routers</module>
     </modules>
-
 
 </project>
