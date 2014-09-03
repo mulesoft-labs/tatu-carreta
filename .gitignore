@@ -1,2 +1,12 @@
 
 *.iml
+
+*.class
+
+*.jar
+
+tatu-carreta-core-routers/target/maven-archiver/pom.properties
+
+tatu-carreta-http/target/maven-archiver/pom.properties
+
+tatu-carreta/target/maven-archiver/pom.properties
