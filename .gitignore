@@ -1,12 +1,17 @@
-
+/classes
+/.clover
+/.classpath
+*.classpath
+/.project
+*.project
+target/
 *.iml
+*.ipr
+*.iws
+/.idea/
+.DS_Store
+/build.properties
+/workspace
+/*.log
+*.settings
 
-*.class
-
-*.jar
-
-tatu-carreta-core-routers/target/maven-archiver/pom.properties
-
-tatu-carreta-http/target/maven-archiver/pom.properties
-
-tatu-carreta/target/maven-archiver/pom.properties

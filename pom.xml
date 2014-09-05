@@ -11,8 +11,29 @@
 
     <modules>
         <module>tatu-carreta</module>
-        <module>tatu-carreta-http</module>
         <module>tatu-carreta-core-routers</module>
+        <module>tatu-carreta-http</module>
+        <module>tatu-carreta-ws-consumer</module>
+        <module>tatu-carreta-test</module>
     </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.5.1</version>
+                    <configuration>
+                        <encoding>ISO-8859-1</encoding>
+                        <fork>true</fork>
+                        <maxmem>512m</maxmem>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>
